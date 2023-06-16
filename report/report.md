@@ -178,7 +178,7 @@ data-reference="Figure:FeatureCorrelationComparison">1</a>).
 </figure>
 
 <figure id="fig:price_adjustment">
-<img src="image.png" />
+<img src="/report/image.png" />
 <figcaption>Inflation-Adjusted and Unadjusted Resale Price</figcaption>
 </figure>
 
@@ -196,7 +196,7 @@ approach.
 ## Geocoding Location Attributes
 
 <figure id="fig:price_geography">
-<img src="price_geography.png" />
+<img src="/report/price_geography.png" />
 <figcaption>Inflation-Adjusted Resale Price per Sqm w.r.t
 Location</figcaption>
 </figure>
@@ -382,7 +382,7 @@ cross-validation to prevent overfitting without the additional
 calculations as the training dataset is large enough.
 
 <figure id="fig:number-of-trees">
-<img src="4_random_forest_hyperparameter_tuning.png" />
+<img src="/report/4_random_forest_hyperparameter_tuning.png" />
 <figcaption>Hyperparameter Tuning: Number of Trees vs Error</figcaption>
 </figure>
 
@@ -424,7 +424,7 @@ was performed with 75 trees and a range of maximum depths between 1 and
 data-reference="fig:max-tree-depth">5</a>.
 
 <figure id="fig:max-tree-depth">
-<img src="4_random_forest_max_tree_depth.png" />
+<img src="/report/4_random_forest_max_tree_depth.png" />
 <figcaption>Hyperparameter Tuning: Number of Trees vs Error</figcaption>
 </figure>
 
@@ -438,11 +438,11 @@ at this point was $45,350 and the RMSE was $29,757.
 Based on these two experiments, the number of trees for the random
 forest was set at 75 and the maximum depth for individual trees was set
 at 25.
-
+/
 # Evaluation
 
 <figure id="fig:evaluation">
-<img src="actual-predicted.png" />
+<img src="/report/actual-predicted.png" />
 <figcaption>Predicted Prices vs Actual Prices</figcaption>
 </figure>
 
