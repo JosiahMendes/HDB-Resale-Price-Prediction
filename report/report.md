@@ -276,7 +276,8 @@ dataset mean was $578,754.
 
 ## Linear Regression
 
-*y* = *β*<sub>0</sub> + *β*<sub>1</sub>*x*<sub>1</sub> + ... + *β*<sub>*n*</sub>*x*<sub>*n*</sub>
+$$y = \beta\_0 + \beta\_1 x\_1 + ... + \beta\_n x\_n$$
+
 Linear regression was used first as a model to set a baseline regression
 accuracy for comparison with other models. This approach fits the above
 equation with coefficients *β* to minimise the residual sum of squares
@@ -299,7 +300,9 @@ An improvement that can be made to linear regression is to introduce
 regularisation to prevent over fitting on the training dataset. Ridge
 regression does this by modifying the loss function from simple linear
 regression to:
-Loss = ∑<sub>*i*</sub>(Actual−Predicted)<sup>2</sup> + *α*∑<sub>*i* ≥ 1</sub>*β*<sub>*i*</sub><sup>2</sup>
+
+$$\text{Loss} = \sum\_i (\text{Actual} - \text{Predicted})^2 + \alpha \sum_{i \geq 1}\beta\_i^2$$
+
 Parameter *α* controls the penalty amount, to balance fit and
 complexity. Different *α* values ranging from 1 to 100000 were tested to
 see the effect of different amounts of regularisation. But they did not
